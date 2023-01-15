@@ -1,0 +1,2487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Slick Slider (Not Work)-->
+    <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script> -->
+
+    <!-- Slick Slider -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    ></script>
+
+    <!-- Jquery cndjs menu-->
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script> -->
+
+    <!-- Font-awesome-CND-Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Styles LESS -->
+    <link
+      rel="stylesheet/less"
+      type="text/css"
+      href="./assets/less/style.less"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
+
+    <title>Hekto Final</title>
+  </head>
+
+  <body>
+    <!-- ===================== Header ==============================-->
+    <header class="header-container">
+      <div class="heading-row-container">
+        <div class="heading-row">
+          <div class="heading-col-left">
+            <div class="heading-left-email">
+              <a class="left-email--link"
+                ><img
+                  class="left-email--img"
+                  src="./assets/images/envelope-icon-heading.svg"
+                  alt="envelope-icon-heading"
+              /></a>
+
+              <a class="left-email--address">mhhasanul@gmail.com</a>
+            </div>
+
+            <div class="heading-left-phone">
+              <a class="left-phone--link"
+                ><img
+                  class="left-phone--img"
+                  src="./assets/images/phone-icon-heading.svg"
+                  alt="phone-icon-heading"
+              /></a>
+
+              <a class="left-phone--number">(12345)67890</a>
+            </div>
+          </div>
+
+          <div class="heading-col-right">
+            <div class="heading-right-bar">
+              <div class="right-bar--language">
+                <p class="language-text">English</p>
+                <img
+                  class="language-icon"
+                  src="./assets/images/chevron-down-icon-heading.svg"
+                  alt="chevron-down-icon-heading"
+                />
+              </div>
+
+              <div class="right-bar--money">
+                <p class="money-text">USD</p>
+                <img
+                  class="money-icon"
+                  src="./assets/images/chevron-down-icon-heading.svg"
+                  alt="chevron-down-icon-heading"
+                />
+              </div>
+
+              <div class="right-bar--login">
+                <p class="login-text">Login</p>
+                <img
+                  class="login-icon"
+                  src="./assets/images/user-icon-heading.svg"
+                  alt="user-icon-heading"
+                />
+              </div>
+
+              <div class="right-bar--wishlist">
+                <p class="wishlist-text">Wishlist</p>
+                <img
+                  class="wishlist-icon"
+                  src="./assets/images/heart-icon-heading.svg"
+                  alt="heart-icon-heading"
+                />
+              </div>
+            </div>
+
+            <div class="heading-right-cart">
+              <img
+                class="right-cart--icon"
+                src="./assets/images/cart-icon-heading.svg"
+                alt="cart-icon-heading"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar-row-container">
+        <div class="navbar-left">
+          <h1 class="navbar-left-logo">Hekto</h1>
+
+          <nav class="navbar-left-menu">
+            <i class="fa-solid fa-bars navbar-left-menu-icon fa-xl"></i>
+
+            <a class="menu-item menu-item-active" href="#"
+              >Home<i class="fa-solid fa-chevron-down fa-2xs menu-item-icon"></i
+            ></a>
+            <a class="menu-item" href="#">Pages</a>
+            <a class="menu-item" href="#">Products</a>
+            <a class="menu-item" href="#">Blog</a>
+            <a class="menu-item" href="#">Shop</a>
+            <a class="menu-item" href="#">Contact</a>
+          </nav>
+        </div>
+
+        <div class="navbar-right">
+          <input type="text" class="navbar-right-input" />
+          <button class="navbar-right-button">
+            <img
+              class="navbar-right-button--img"
+              src="./assets/images/search-icon-nav.svg"
+            />
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- ===================== End Header =========================== -->
+
+    <!-- =========== Slider ============== -->
+    <div class="slider-container">
+      <div class="slider--item">
+        <img
+          class="slider-lamp-img"
+          src="./assets/images/lamp-img-slider.png"
+        />
+
+        <div class="slider-small-dot"></div>
+
+        <div class="slider-desc-container">
+          <h6 class="slider-desc-small-title">
+            Best Furniture For Your Castle....
+          </h6>
+
+          <h1 class="slider-desc-big-title">
+            New Furniture Collection Trends in 2020
+          </h1>
+
+          <p class="slider-desc-big-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in
+            est adipiscing in phasellus non in justo.
+          </p>
+
+          <button class="slider-desc-button">Shop Now</button>
+        </div>
+
+        <img
+          class="slider-sofa-img"
+          src="./assets/images/sofa-img-slider.png"
+          alt="sofa-img-slider"
+        />
+
+        <img
+          class="slider-circle-1"
+          src="./assets/images/ellipse-img-slider.png"
+          alt="ellipse-img-slider"
+        />
+
+        <img
+          class="slider-circle-2"
+          alt="ellipse-img-slider"
+          src="./assets/images/ellipse-img-slider.png"
+        />
+
+        <img
+          class="slider-sale-img"
+          src="./assets/images/sale-img-slider.png"
+          alt="sale-img-slider.png"
+        />
+      </div>
+
+      <div class="slider--item">
+        <img
+          class="slider-lamp-img"
+          src="./assets/images/lamp-img-slider.png"
+        />
+
+        <div class="slider-small-dot"></div>
+
+        <div class="slider-desc-container">
+          <h6 class="slider-desc-small-title">
+            Best Furniture For Your Castle....
+          </h6>
+
+          <h1 class="slider-desc-big-title">
+            New Furniture Collection Trends in 2020
+          </h1>
+
+          <p class="slider-desc-big-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in
+            est adipiscing in phasellus non in justo.
+          </p>
+
+          <button class="slider-desc-button">Shop Now</button>
+        </div>
+
+        <img
+          class="slider-sofa-img"
+          src="./assets/images/sofa-img-slider.png"
+          alt="sofa-img-slider"
+        />
+
+        <img
+          class="slider-circle-1"
+          src="./assets/images/ellipse-img-slider.png"
+          alt="ellipse-img-slider"
+        />
+
+        <img
+          class="slider-circle-2"
+          alt="ellipse-img-slider"
+          src="./assets/images/ellipse-img-slider.png"
+        />
+
+        <img
+          class="slider-sale-img"
+          src="./assets/images/sale-img-slider.png"
+          alt="sale-img-slider.png"
+        />
+      </div>
+
+      <div class="slider--item">
+        <img
+          class="slider-lamp-img"
+          src="./assets/images/lamp-img-slider.png"
+        />
+
+        <div class="slider-small-dot"></div>
+
+        <div class="slider-desc-container">
+          <h6 class="slider-desc-small-title">
+            Best Furniture For Your Castle....
+          </h6>
+
+          <h1 class="slider-desc-big-title">
+            New Furniture Collection Trends in 2020
+          </h1>
+
+          <p class="slider-desc-big-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in
+            est adipiscing in phasellus non in justo.
+          </p>
+
+          <button class="slider-desc-button">Shop Now</button>
+        </div>
+
+        <img
+          class="slider-sofa-img"
+          src="./assets/images/sofa-img-slider.png"
+          alt="sofa-img-slider"
+        />
+
+        <img
+          class="slider-circle-1"
+          src="./assets/images/ellipse-img-slider.png"
+          alt="ellipse-img-slider"
+        />
+
+        <img
+          class="slider-circle-2"
+          alt="ellipse-img-slider"
+          src="./assets/images/ellipse-img-slider.png"
+        />
+
+        <img
+          class="slider-sale-img"
+          src="./assets/images/sale-img-slider.png"
+          alt="sale-img-slider.png"
+        />
+      </div>
+    </div>
+    <!-- =========== End Slider ============== -->
+
+    <!-- ============= Main =================== -->
+    <main class="main-container">
+      <!-- =========== Featured Products ============ -->
+      <section class="featured-products">
+        <h1 class="featured-products-title">Featured Products</h1>
+
+        <div class="featured-products-content">
+          <div class="featured-products-item">
+            <div class="featured-products-item--img-container">
+              <div class="featured-products-item--icons">
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/cart-featured-products-icon.svg"
+                  alt="cart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/heart-featured-products-icon.svg"
+                  alt="heart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/search-featured-products-icon.svg"
+                  alt="search-featured-products-icon"
+                />
+              </div>
+
+              <button class="featured-products-item--button">
+                View Details
+              </button>
+
+              <img
+                class="featured-products-item-img"
+                src="./assets/images/chair-featued-products-img-1.png"
+                alt="chair-featued-products-img-1"
+              />
+            </div>
+
+            <div class="featured-products-item--desc">
+              <h6 class="featured-products-item--title">Cantilever chair</h6>
+
+              <div class="featured-products-item--rectangles">
+                <div class="rectangle-item-1"></div>
+                <div class="rectangle-item-2"></div>
+                <div class="rectangle-item-3"></div>
+              </div>
+
+              <p class="featured-products-item--code">Code - Y523201</p>
+
+              <p class="featured-products-item--price">$42.00</p>
+            </div>
+          </div>
+
+          <div class="featured-products-item">
+            <div class="featured-products-item--img-container">
+              <div class="featured-products-item--icons">
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/cart-featured-products-icon.svg"
+                  alt="cart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/heart-featured-products-icon.svg"
+                  alt="heart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/search-featured-products-icon.svg"
+                  alt="search-featured-products-icon"
+                />
+              </div>
+
+              <button class="featured-products-item--button">
+                View Details
+              </button>
+
+              <img
+                class="featured-products-item-img"
+                src="./assets/images/chair-featued-products-img-2.png"
+                alt="chair-featued-products-img-2"
+              />
+            </div>
+
+            <div class="featured-products-item--desc">
+              <h6 class="featured-products-item--title">Cantilever chair</h6>
+
+              <div class="featured-products-item--rectangles">
+                <div class="rectangle-item-1"></div>
+                <div class="rectangle-item-2"></div>
+                <div class="rectangle-item-3"></div>
+              </div>
+
+              <p class="featured-products-item--code">Code - Y523201</p>
+
+              <p class="featured-products-item--price">$42.00</p>
+            </div>
+          </div>
+
+          <div class="featured-products-item">
+            <div class="featured-products-item--img-container">
+              <div class="featured-products-item--icons">
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/cart-featured-products-icon.svg"
+                  alt="cart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/heart-featured-products-icon.svg"
+                  alt="heart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/search-featured-products-icon.svg"
+                  alt="search-featured-products-icon"
+                />
+              </div>
+
+              <button class="featured-products-item--button">
+                View Details
+              </button>
+              <img
+                class="featured-products-item-img"
+                src="./assets/images/chair-featued-products-img-3.png"
+                alt="chair-featued-products-img-3"
+              />
+            </div>
+
+            <div class="featured-products-item--desc">
+              <h6 class="featured-products-item--title">Cantilever chair</h6>
+
+              <div class="featured-products-item--rectangles">
+                <div class="rectangle-item-1"></div>
+                <div class="rectangle-item-2"></div>
+                <div class="rectangle-item-3"></div>
+              </div>
+
+              <p class="featured-products-item--code">Code - Y523201</p>
+
+              <p class="featured-products-item--price">$42.00</p>
+            </div>
+          </div>
+
+          <div class="featured-products-item">
+            <div class="featured-products-item--img-container">
+              <div class="featured-products-item--icons">
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/cart-featured-products-icon.svg"
+                  alt="cart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/heart-featured-products-icon.svg"
+                  alt="heart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/search-featured-products-icon.svg"
+                  alt="search-featured-products-icon"
+                />
+              </div>
+
+              <button class="featured-products-item--button">
+                View Details
+              </button>
+              <img
+                class="featured-products-item-img"
+                src="./assets/images/chair-featued-products-img-4.png"
+                alt="chair-featued-products-img-4"
+              />
+            </div>
+
+            <div class="featured-products-item--desc">
+              <h6 class="featured-products-item--title">Cantilever chair</h6>
+
+              <div class="featured-products-item--rectangles">
+                <div class="rectangle-item-1"></div>
+                <div class="rectangle-item-2"></div>
+                <div class="rectangle-item-3"></div>
+              </div>
+
+              <p class="featured-products-item--code">Code - Y523201</p>
+
+              <p class="featured-products-item--price">$42.00</p>
+            </div>
+          </div>
+
+          <div class="featured-products-item">
+            <div class="featured-products-item--img-container">
+              <div class="featured-products-item--icons">
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/cart-featured-products-icon.svg"
+                  alt="cart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/heart-featured-products-icon.svg"
+                  alt="heart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/search-featured-products-icon.svg"
+                  alt="search-featured-products-icon"
+                />
+              </div>
+
+              <button class="featured-products-item--button">
+                View Details
+              </button>
+
+              <img
+                class="featured-products-item-img"
+                src="./assets/images/chair-featued-products-img-1.png"
+                alt="chair-featued-products-img-1"
+              />
+            </div>
+
+            <div class="featured-products-item--desc">
+              <h6 class="featured-products-item--title">Cantilever chair</h6>
+
+              <div class="featured-products-item--rectangles">
+                <div class="rectangle-item-1"></div>
+                <div class="rectangle-item-2"></div>
+                <div class="rectangle-item-3"></div>
+              </div>
+
+              <p class="featured-products-item--code">Code - Y523201</p>
+
+              <p class="featured-products-item--price">$42.00</p>
+            </div>
+          </div>
+
+          <div class="featured-products-item">
+            <div class="featured-products-item--img-container">
+              <div class="featured-products-item--icons">
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/cart-featured-products-icon.svg"
+                  alt="cart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/heart-featured-products-icon.svg"
+                  alt="heart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/search-featured-products-icon.svg"
+                  alt="search-featured-products-icon"
+                />
+              </div>
+
+              <button class="featured-products-item--button">
+                View Details
+              </button>
+
+              <img
+                class="featured-products-item-img"
+                src="./assets/images/chair-featued-products-img-2.png"
+                alt="chair-featued-products-img-2"
+              />
+            </div>
+
+            <div class="featured-products-item--desc">
+              <h6 class="featured-products-item--title">Cantilever chair</h6>
+
+              <div class="featured-products-item--rectangles">
+                <div class="rectangle-item-1"></div>
+                <div class="rectangle-item-2"></div>
+                <div class="rectangle-item-3"></div>
+              </div>
+
+              <p class="featured-products-item--code">Code - Y523201</p>
+
+              <p class="featured-products-item--price">$42.00</p>
+            </div>
+          </div>
+
+          <div class="featured-products-item">
+            <div class="featured-products-item--img-container">
+              <div class="featured-products-item--icons">
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/cart-featured-products-icon.svg"
+                  alt="cart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/heart-featured-products-icon.svg"
+                  alt="heart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/search-featured-products-icon.svg"
+                  alt="search-featured-products-icon"
+                />
+              </div>
+
+              <button class="featured-products-item--button">
+                View Details
+              </button>
+              <img
+                class="featured-products-item-img"
+                src="./assets/images/chair-featued-products-img-3.png"
+                alt="chair-featued-products-img-3"
+              />
+            </div>
+
+            <div class="featured-products-item--desc">
+              <h6 class="featured-products-item--title">Cantilever chair</h6>
+
+              <div class="featured-products-item--rectangles">
+                <div class="rectangle-item-1"></div>
+                <div class="rectangle-item-2"></div>
+                <div class="rectangle-item-3"></div>
+              </div>
+
+              <p class="featured-products-item--code">Code - Y523201</p>
+
+              <p class="featured-products-item--price">$42.00</p>
+            </div>
+          </div>
+
+          <div class="featured-products-item">
+            <div class="featured-products-item--img-container">
+              <div class="featured-products-item--icons">
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/cart-featured-products-icon.svg"
+                  alt="cart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/heart-featured-products-icon.svg"
+                  alt="heart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/search-featured-products-icon.svg"
+                  alt="search-featured-products-icon"
+                />
+              </div>
+
+              <button class="featured-products-item--button">
+                View Details
+              </button>
+              <img
+                class="featured-products-item-img"
+                src="./assets/images/chair-featued-products-img-4.png"
+                alt="chair-featued-products-img-4"
+              />
+            </div>
+
+            <div class="featured-products-item--desc">
+              <h6 class="featured-products-item--title">Cantilever chair</h6>
+
+              <div class="featured-products-item--rectangles">
+                <div class="rectangle-item-1"></div>
+                <div class="rectangle-item-2"></div>
+                <div class="rectangle-item-3"></div>
+              </div>
+
+              <p class="featured-products-item--code">Code - Y523201</p>
+
+              <p class="featured-products-item--price">$42.00</p>
+            </div>
+          </div>
+
+          <div class="featured-products-item">
+            <div class="featured-products-item--img-container">
+              <div class="featured-products-item--icons">
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/cart-featured-products-icon.svg"
+                  alt="cart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/heart-featured-products-icon.svg"
+                  alt="heart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/search-featured-products-icon.svg"
+                  alt="search-featured-products-icon"
+                />
+              </div>
+
+              <button class="featured-products-item--button">
+                View Details
+              </button>
+
+              <img
+                class="featured-products-item-img"
+                src="./assets/images/chair-featued-products-img-1.png"
+                alt="chair-featued-products-img-1"
+              />
+            </div>
+
+            <div class="featured-products-item--desc">
+              <h6 class="featured-products-item--title">Cantilever chair</h6>
+
+              <div class="featured-products-item--rectangles">
+                <div class="rectangle-item-1"></div>
+                <div class="rectangle-item-2"></div>
+                <div class="rectangle-item-3"></div>
+              </div>
+
+              <p class="featured-products-item--code">Code - Y523201</p>
+
+              <p class="featured-products-item--price">$42.00</p>
+            </div>
+          </div>
+
+          <div class="featured-products-item">
+            <div class="featured-products-item--img-container">
+              <div class="featured-products-item--icons">
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/cart-featured-products-icon.svg"
+                  alt="cart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/heart-featured-products-icon.svg"
+                  alt="heart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/search-featured-products-icon.svg"
+                  alt="search-featured-products-icon"
+                />
+              </div>
+
+              <button class="featured-products-item--button">
+                View Details
+              </button>
+
+              <img
+                class="featured-products-item-img"
+                src="./assets/images/chair-featued-products-img-2.png"
+                alt="chair-featued-products-img-2"
+              />
+            </div>
+
+            <div class="featured-products-item--desc">
+              <h6 class="featured-products-item--title">Cantilever chair</h6>
+
+              <div class="featured-products-item--rectangles">
+                <div class="rectangle-item-1"></div>
+                <div class="rectangle-item-2"></div>
+                <div class="rectangle-item-3"></div>
+              </div>
+
+              <p class="featured-products-item--code">Code - Y523201</p>
+
+              <p class="featured-products-item--price">$42.00</p>
+            </div>
+          </div>
+
+          <div class="featured-products-item">
+            <div class="featured-products-item--img-container">
+              <div class="featured-products-item--icons">
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/cart-featured-products-icon.svg"
+                  alt="cart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/heart-featured-products-icon.svg"
+                  alt="heart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/search-featured-products-icon.svg"
+                  alt="search-featured-products-icon"
+                />
+              </div>
+
+              <button class="featured-products-item--button">
+                View Details
+              </button>
+              <img
+                class="featured-products-item-img"
+                src="./assets/images/chair-featued-products-img-3.png"
+                alt="chair-featued-products-img-3"
+              />
+            </div>
+
+            <div class="featured-products-item--desc">
+              <h6 class="featured-products-item--title">Cantilever chair</h6>
+
+              <div class="featured-products-item--rectangles">
+                <div class="rectangle-item-1"></div>
+                <div class="rectangle-item-2"></div>
+                <div class="rectangle-item-3"></div>
+              </div>
+
+              <p class="featured-products-item--code">Code - Y523201</p>
+
+              <p class="featured-products-item--price">$42.00</p>
+            </div>
+          </div>
+
+          <div class="featured-products-item">
+            <div class="featured-products-item--img-container">
+              <div class="featured-products-item--icons">
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/cart-featured-products-icon.svg"
+                  alt="cart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/heart-featured-products-icon.svg"
+                  alt="heart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/search-featured-products-icon.svg"
+                  alt="search-featured-products-icon"
+                />
+              </div>
+
+              <button class="featured-products-item--button">
+                View Details
+              </button>
+              <img
+                class="featured-products-item-img"
+                src="./assets/images/chair-featued-products-img-4.png"
+                alt="chair-featued-products-img-4"
+              />
+            </div>
+
+            <div class="featured-products-item--desc">
+              <h6 class="featured-products-item--title">Cantilever chair</h6>
+
+              <div class="featured-products-item--rectangles">
+                <div class="rectangle-item-1"></div>
+                <div class="rectangle-item-2"></div>
+                <div class="rectangle-item-3"></div>
+              </div>
+
+              <p class="featured-products-item--code">Code - Y523201</p>
+
+              <p class="featured-products-item--price">$42.00</p>
+            </div>
+          </div>
+
+          <div class="featured-products-item">
+            <div class="featured-products-item--img-container">
+              <div class="featured-products-item--icons">
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/cart-featured-products-icon.svg"
+                  alt="cart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/heart-featured-products-icon.svg"
+                  alt="heart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/search-featured-products-icon.svg"
+                  alt="search-featured-products-icon"
+                />
+              </div>
+
+              <button class="featured-products-item--button">
+                View Details
+              </button>
+
+              <img
+                class="featured-products-item-img"
+                src="./assets/images/chair-featued-products-img-1.png"
+                alt="chair-featued-products-img-1"
+              />
+            </div>
+
+            <div class="featured-products-item--desc">
+              <h6 class="featured-products-item--title">Cantilever chair</h6>
+
+              <div class="featured-products-item--rectangles">
+                <div class="rectangle-item-1"></div>
+                <div class="rectangle-item-2"></div>
+                <div class="rectangle-item-3"></div>
+              </div>
+
+              <p class="featured-products-item--code">Code - Y523201</p>
+
+              <p class="featured-products-item--price">$42.00</p>
+            </div>
+          </div>
+
+          <div class="featured-products-item">
+            <div class="featured-products-item--img-container">
+              <div class="featured-products-item--icons">
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/cart-featured-products-icon.svg"
+                  alt="cart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/heart-featured-products-icon.svg"
+                  alt="heart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/search-featured-products-icon.svg"
+                  alt="search-featured-products-icon"
+                />
+              </div>
+
+              <button class="featured-products-item--button">
+                View Details
+              </button>
+
+              <img
+                class="featured-products-item-img"
+                src="./assets/images/chair-featued-products-img-2.png"
+                alt="chair-featued-products-img-2"
+              />
+            </div>
+
+            <div class="featured-products-item--desc">
+              <h6 class="featured-products-item--title">Cantilever chair</h6>
+
+              <div class="featured-products-item--rectangles">
+                <div class="rectangle-item-1"></div>
+                <div class="rectangle-item-2"></div>
+                <div class="rectangle-item-3"></div>
+              </div>
+
+              <p class="featured-products-item--code">Code - Y523201</p>
+
+              <p class="featured-products-item--price">$42.00</p>
+            </div>
+          </div>
+
+          <div class="featured-products-item">
+            <div class="featured-products-item--img-container">
+              <div class="featured-products-item--icons">
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/cart-featured-products-icon.svg"
+                  alt="cart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/heart-featured-products-icon.svg"
+                  alt="heart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/search-featured-products-icon.svg"
+                  alt="search-featured-products-icon"
+                />
+              </div>
+
+              <button class="featured-products-item--button">
+                View Details
+              </button>
+              <img
+                class="featured-products-item-img"
+                src="./assets/images/chair-featued-products-img-3.png"
+                alt="chair-featued-products-img-3"
+              />
+            </div>
+
+            <div class="featured-products-item--desc">
+              <h6 class="featured-products-item--title">Cantilever chair</h6>
+
+              <div class="featured-products-item--rectangles">
+                <div class="rectangle-item-1"></div>
+                <div class="rectangle-item-2"></div>
+                <div class="rectangle-item-3"></div>
+              </div>
+
+              <p class="featured-products-item--code">Code - Y523201</p>
+
+              <p class="featured-products-item--price">$42.00</p>
+            </div>
+          </div>
+
+          <div class="featured-products-item">
+            <div class="featured-products-item--img-container">
+              <div class="featured-products-item--icons">
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/cart-featured-products-icon.svg"
+                  alt="cart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/heart-featured-products-icon.svg"
+                  alt="heart-featured-products-icon"
+                />
+
+                <img
+                  class="featured-products-item--icons--img"
+                  src="./assets/images/search-featured-products-icon.svg"
+                  alt="search-featured-products-icon"
+                />
+              </div>
+
+              <button class="featured-products-item--button">
+                View Details
+              </button>
+              <img
+                class="featured-products-item-img"
+                src="./assets/images/chair-featued-products-img-4.png"
+                alt="chair-featued-products-img-4"
+              />
+            </div>
+
+            <div class="featured-products-item--desc">
+              <h6 class="featured-products-item--title">Cantilever chair</h6>
+
+              <div class="featured-products-item--rectangles">
+                <div class="rectangle-item-1"></div>
+                <div class="rectangle-item-2"></div>
+                <div class="rectangle-item-3"></div>
+              </div>
+
+              <p class="featured-products-item--code">Code - Y523201</p>
+
+              <p class="featured-products-item--price">$42.00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- =========== End Featured Products ============ -->
+
+      <!-- =========== Leatest Products ================ -->
+      <section class="leatest-products">
+        <h1 class="leatest-products-title">Leatest Products</h1>
+
+        <nav class="leatest-products-nav">
+          <a href="#" class="nav-item nav-item--active">New Arrival</a>
+          <a href="#" class="nav-item">Best Seller</a>
+          <a href="#" class="nav-item">Featured</a>
+          <a href="#" class="nav-item">Special Offer</a>
+        </nav>
+
+        <div class="leatest-products-content">
+          <div class="leatest-products-content-item">
+            <div class="leatest-products-item-img-container">
+              <img
+                src="./assets/images/chair-leatest-products-img-1.png"
+                alt="chair-leatest-products-img-1"
+              />
+
+              <img
+                class="leatest-products-item-img-sale"
+                src="./assets/images/sale-leatest-products-img.png"
+                alt="sale-leatest-products-img"
+              />
+
+              <div class="leatest-products-item-img-icons">
+                <div class="leatest-products-item-img-icon-cart">
+                  <img
+                    src="./assets/images/cart-leatest-products-icon.svg"
+                    alt="cart-leatest-products-icon"
+                  />
+                </div>
+
+                <div class="leatest-products-item-img-icon-search-plus">
+                  <img
+                    src="./assets/images/search-plus-leatest-products-icon.svg"
+                    alt="search-plus-leatest-products-icon"
+                  />
+                </div>
+
+                <div class="leatest-products-item-img-icon-heart">
+                  <img
+                    src="./assets/images/heart-leatest-products-icon.svg"
+                    alt="heart-leatest-products-icon"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="leatest-products-item-desc">
+              <h6 class="leatest-products-item--title">Comfort Handy Craft</h6>
+
+              <div class="leatest-products-item--price">
+                <p class="leatest-products-item--price--after">$42.00</p>
+                <p class="leatest-products-item--price--before">$65.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="leatest-products-content-item">
+            <div class="leatest-products-item-img-container">
+              <img
+                src="./assets/images/chair-leatest-products-img-2.png"
+                alt="chair-leatest-products-img-2"
+              />
+
+              <img
+                class="leatest-products-item-img-sale"
+                src="./assets/images/sale-leatest-products-img.png"
+                alt="sale-leatest-products-img"
+              />
+
+              <div class="leatest-products-item-img-icons">
+                <div class="leatest-products-item-img-icon-cart">
+                  <img
+                    src="./assets/images/cart-leatest-products-icon.svg"
+                    alt="cart-leatest-products-icon"
+                  />
+                </div>
+
+                <div class="leatest-products-item-img-icon-search-plus">
+                  <img
+                    src="./assets/images/search-plus-leatest-products-icon.svg"
+                    alt="search-plus-leatest-products-icon"
+                  />
+                </div>
+
+                <div class="leatest-products-item-img-icon-heart">
+                  <img
+                    src="./assets/images/heart-leatest-products-icon.svg"
+                    alt="heart-leatest-products-icon"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="leatest-products-item-desc">
+              <h6 class="leatest-products-item--title">Comfort Handy Craft</h6>
+
+              <div class="leatest-products-item--price">
+                <p class="leatest-products-item--price--after">$42.00</p>
+                <p class="leatest-products-item--price--before">$65.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="leatest-products-content-item">
+            <div class="leatest-products-item-img-container">
+              <img
+                src="./assets/images/chair-leatest-products-img-3.png"
+                alt="chair-leatest-products-img-3"
+              />
+
+              <img
+                class="leatest-products-item-img-sale"
+                src="./assets/images/sale-leatest-products-img.png"
+                alt="sale-leatest-products-img"
+              />
+
+              <div class="leatest-products-item-img-icons">
+                <div class="leatest-products-item-img-icon-cart">
+                  <img
+                    src="./assets/images/cart-leatest-products-icon.svg"
+                    alt="cart-leatest-products-icon"
+                  />
+                </div>
+
+                <div class="leatest-products-item-img-icon-search-plus">
+                  <img
+                    src="./assets/images/search-plus-leatest-products-icon.svg"
+                    alt="search-plus-leatest-products-icon"
+                  />
+                </div>
+
+                <div class="leatest-products-item-img-icon-heart">
+                  <img
+                    src="./assets/images/heart-leatest-products-icon.svg"
+                    alt="heart-leatest-products-icon"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="leatest-products-item-desc">
+              <h6 class="leatest-products-item--title">Comfort Handy Craft</h6>
+
+              <div class="leatest-products-item--price">
+                <p class="leatest-products-item--price--after">$42.00</p>
+                <p class="leatest-products-item--price--before">$65.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="leatest-products-content-item">
+            <div class="leatest-products-item-img-container">
+              <img
+                src="./assets/images/chair-leatest-products-img-4.png"
+                alt="chair-leatest-products-img-4"
+              />
+
+              <img
+                class="leatest-products-item-img-sale"
+                src="./assets/images/sale-leatest-products-img.png"
+                alt="sale-leatest-products-img"
+              />
+
+              <div class="leatest-products-item-img-icons">
+                <div class="leatest-products-item-img-icon-cart">
+                  <img
+                    src="./assets/images/cart-leatest-products-icon.svg"
+                    alt="cart-leatest-products-icon"
+                  />
+                </div>
+
+                <div class="leatest-products-item-img-icon-search-plus">
+                  <img
+                    src="./assets/images/search-plus-leatest-products-icon.svg"
+                    alt="search-plus-leatest-products-icon"
+                  />
+                </div>
+
+                <div class="leatest-products-item-img-icon-heart">
+                  <img
+                    src="./assets/images/heart-leatest-products-icon.svg"
+                    alt="heart-leatest-products-icon"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="leatest-products-item-desc">
+              <h6 class="leatest-products-item--title">Comfort Handy Craft</h6>
+
+              <div class="leatest-products-item--price">
+                <p class="leatest-products-item--price--after">$42.00</p>
+                <p class="leatest-products-item--price--before">$65.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="leatest-products-content-item">
+            <div class="leatest-products-item-img-container">
+              <img
+                src="./assets/images/chair-leatest-products-img-5.png"
+                alt="chair-leatest-products-img-5"
+              />
+
+              <img
+                class="leatest-products-item-img-sale"
+                src="./assets/images/sale-leatest-products-img.png"
+                alt="sale-leatest-products-img"
+              />
+
+              <div class="leatest-products-item-img-icons">
+                <div class="leatest-products-item-img-icon-cart">
+                  <img
+                    src="./assets/images/cart-leatest-products-icon.svg"
+                    alt="cart-leatest-products-icon"
+                  />
+                </div>
+
+                <div class="leatest-products-item-img-icon-search-plus">
+                  <img
+                    src="./assets/images/search-plus-leatest-products-icon.svg"
+                    alt="search-plus-leatest-products-icon"
+                  />
+                </div>
+
+                <div class="leatest-products-item-img-icon-heart">
+                  <img
+                    src="./assets/images/heart-leatest-products-icon.svg"
+                    alt="heart-leatest-products-icon"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="leatest-products-item-desc">
+              <h6 class="leatest-products-item--title">Comfort Handy Craft</h6>
+
+              <div class="leatest-products-item--price">
+                <p class="leatest-products-item--price--after">$42.00</p>
+                <p class="leatest-products-item--price--before">$65.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="leatest-products-content-item">
+            <div class="leatest-products-item-img-container">
+              <img
+                src="./assets/images/chair-leatest-products-img-6.png"
+                alt="chair-leatest-products-img-6"
+              />
+
+              <img
+                class="leatest-products-item-img-sale"
+                src="./assets/images/sale-leatest-products-img.png"
+                alt="sale-leatest-products-img"
+              />
+
+              <div class="leatest-products-item-img-icons">
+                <div class="leatest-products-item-img-icon-cart">
+                  <img
+                    src="./assets/images/cart-leatest-products-icon.svg"
+                    alt="cart-leatest-products-icon"
+                  />
+                </div>
+
+                <div class="leatest-products-item-img-icon-search-plus">
+                  <img
+                    src="./assets/images/search-plus-leatest-products-icon.svg"
+                    alt="search-plus-leatest-products-icon"
+                  />
+                </div>
+
+                <div class="leatest-products-item-img-icon-heart">
+                  <img
+                    src="./assets/images/heart-leatest-products-icon.svg"
+                    alt="heart-leatest-products-icon"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="leatest-products-item-desc">
+              <h6 class="leatest-products-item--title">Comfort Handy Craft</h6>
+
+              <div class="leatest-products-item--price">
+                <p class="leatest-products-item--price--after">$42.00</p>
+                <p class="leatest-products-item--price--before">$65.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- =========== End Leatest Products ================ -->
+
+      <!-- =========== What Shopex Offer ================ -->
+      <section class="what-shopex-offer">
+        <h1 class="what-shopex-offer-title">What Shopex Offer!</h1>
+
+        <div class="what-shopex-offer-content">
+          <div class="what-shopex-offer-content--item">
+            <img
+              class="what-shopex-offer-content--item--img"
+              src="./assets/images/free-delivery-what-shopex-offer-img.png"
+              alt="free-delivery-what-shopex-offer-img"
+            />
+
+            <h3 class="what-shopex-offer-content--item--title">24/7 Support</h3>
+
+            <p class="what-shopex-offer-content--item--desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+              purus gravida.
+            </p>
+          </div>
+
+          <div class="what-shopex-offer-content--item">
+            <img
+              class="what-shopex-offer-content--item--img"
+              src="./assets/images/cashback-what-shopex-offer-img.png"
+              alt="cashback-what-shopex-offer-img"
+            />
+
+            <h3 class="what-shopex-offer-content--item--title">24/7 Support</h3>
+
+            <p class="what-shopex-offer-content--item--desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+              purus gravida.
+            </p>
+          </div>
+
+          <div class="what-shopex-offer-content--item">
+            <img
+              class="what-shopex-offer-content--item--img"
+              src="./assets/images/premium-quality-what-shopex-offer-img.png"
+              alt="premium-quality-what-shopex-offer-img.png"
+            />
+
+            <h3 class="what-shopex-offer-content--item--title">24/7 Support</h3>
+
+            <p class="what-shopex-offer-content--item--desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+              purus gravida.
+            </p>
+          </div>
+
+          <div class="what-shopex-offer-content--item">
+            <img
+              class="what-shopex-offer-content--item--img"
+              src="./assets/images/24-hours-support-what-shopex-offer-img.png"
+              alt="24-hours-support-what-shopex-offer-img"
+            />
+
+            <h3 class="what-shopex-offer-content--item--title">24/7 Support</h3>
+
+            <p class="what-shopex-offer-content--item--desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+              purus gravida.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- =========== End What Shopex Offer ================ -->
+
+      <!-- =========== Banner================ -->
+      <section class="banner">
+        <div class="banner-container">
+          <img
+            class="banner-left-circle-img"
+            src="./assets/images/circle-banner-img.png"
+            alt="circle-banner-img"
+          />
+
+          <img
+            class="banner-left-sofa-img"
+            src="./assets/images/sofa-banner-img.png"
+            alt="sofa-banner-img"
+          />
+
+          <div class="banner-right">
+            <h1 class="banner-right-title">
+              Unique Features Of leatest & Trending Poducts
+            </h1>
+
+            <div class="banner-right-desc">
+              <div class="desc-item">
+                <div class="desc-item--circle-red"></div>
+                <p class="desc-item-text">
+                  All frames constructed with hardwood solids and laminates
+                </p>
+              </div>
+
+              <div class="desc-item">
+                <div class="desc-item--circle-blue"></div>
+                <p class="desc-item-text">
+                  Reinforced with double wood dowels, glue, screw - nails corner
+                  blocks and machine nails
+                </p>
+              </div>
+
+              <div class="desc-item">
+                <div class="desc-item--circle-green"></div>
+                <p class="desc-item-text">
+                  Arms, backs and seats are structurally reinforced
+                </p>
+              </div>
+            </div>
+
+            <div class="banner-right-button-price">
+              <button class="banner-right-button">Add To Cart</button>
+
+              <div class="banner-right-price">
+                <h6 class="banner-right-price--title">B&B Italian Sofa</h6>
+                <p class="banner-right-price--money">$32.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- =========== End Banner================ -->
+
+      <!-- =========== Trending Products================ -->
+      <section class="trending-products">
+        <h1 class="trending-products-title">Trending Products</h1>
+
+        <div class="trending-products-content">
+          <div class="trending-products-content-row-products">
+            <div class="row-products-item">
+              <div class="row-products-item-img-container">
+                <img
+                  class="chair-img-item"
+                  src="./assets/images/chair-trending-products-img-1.png"
+                  alt="chair-trending-products-img-1"
+                />
+              </div>
+
+              <div class="row-products-item-desc">
+                <h6 class="row-products-item-title">Cantilever chair</h6>
+                <div class="row-products-item-price">
+                  <p class="row-products-item-price-after">$26.00</p>
+                  <p class="row-products-item-price-before">$42.00</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row-products-item">
+              <div class="row-products-item-img-container">
+                <img
+                  class="chair-img-item"
+                  src="./assets/images/chair-trending-products-img-2.png"
+                  alt="chair-trending-products-img-2"
+                />
+              </div>
+
+              <div class="row-products-item-desc">
+                <h6 class="row-products-item-title">Cantilever chair</h6>
+                <div class="row-products-item-price">
+                  <p class="row-products-item-price-after">$26.00</p>
+                  <p class="row-products-item-price-before">$42.00</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row-products-item">
+              <div class="row-products-item-img-container">
+                <img
+                  class="chair-img-item"
+                  src="./assets/images/chair-trending-products-img-3.png"
+                  alt="chair-trending-products-img-3"
+                />
+              </div>
+
+              <div class="row-products-item-desc">
+                <h6 class="row-products-item-title">Cantilever chair</h6>
+                <div class="row-products-item-price">
+                  <p class="row-products-item-price-after">$26.00</p>
+                  <p class="row-products-item-price-before">$42.00</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row-products-item">
+              <div class="row-products-item-img-container">
+                <img
+                  class="chair-img-item"
+                  src="./assets/images/chair-trending-products-img-4.png"
+                  alt="chair-trending-products-img-4"
+                />
+              </div>
+
+              <div class="row-products-item-desc">
+                <h6 class="row-products-item-title">Cantilever chair</h6>
+                <div class="row-products-item-price">
+                  <p class="row-products-item-price-after">$26.00</p>
+                  <p class="row-products-item-price-before">$42.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="trending-products-content-row-sale">
+            <div class="row-sale-shop-now">
+              <h4 class="row-sale-shop-now--title">23% off in all products</h4>
+
+              <a class="row-sale-shop-now--link" href="#">Shop Now</a>
+
+              <img
+                class="row-sale-shop-now-img"
+                src="./assets/images/sale-trending-products-img-2.png"
+                alt="sale-trending-products-img-2"
+              />
+            </div>
+
+            <div class="row-sale-view-collection">
+              <h4 class="row-sale-view-collection--title">
+                23% off in all products
+              </h4>
+
+              <a class="row-sale-view-collection--link" href="#"
+                >View Collection</a
+              >
+
+              <img
+                class="row-sale-view-collection--img"
+                src="./assets/images/sale-trending-products-img-1.png"
+                alt="sale-trending-products-img-1"
+              />
+            </div>
+
+            <div class="row-sale-chair-products">
+              <div class="row-sale-chair-products--item">
+                <div class="row-sale-chair-products--item--img-container">
+                  <img
+                    src="./assets/images/chair-trending-products-img-5.png"
+                    alt="chair-trending-products-img-5"
+                  />
+                </div>
+
+                <div class="row-sale-chair-products--item--desc">
+                  <h6 class="row-sale-chair-products--item--desc--title">
+                    Executive Seat chair
+                  </h6>
+
+                  <p class="row-sale-chair-products--item--desc--price">
+                    $32.00
+                  </p>
+                </div>
+              </div>
+
+              <div class="row-sale-chair-products--item">
+                <div class="row-sale-chair-products--item--img-container">
+                  <img
+                    src="./assets/images/chair-trending-products-img-6.png"
+                    alt="chair-trending-products-img-6"
+                  />
+                </div>
+
+                <div class="row-sale-chair-products--item--desc">
+                  <h6 class="row-sale-chair-products--item--desc--title">
+                    Executive Seat chair
+                  </h6>
+
+                  <p class="row-sale-chair-products--item--desc--price">
+                    $32.00
+                  </p>
+                </div>
+              </div>
+
+              <div class="row-sale-chair-products--item">
+                <div class="row-sale-chair-products--item--img-container">
+                  <img
+                    src="./assets/images/chair-trending-products-img-7.png"
+                    alt="chair-trending-products-img-7"
+                  />
+                </div>
+
+                <div class="row-sale-chair-products--item--desc">
+                  <h6 class="row-sale-chair-products--item--desc--title">
+                    Executive Seat chair
+                  </h6>
+
+                  <p class="row-sale-chair-products--item--desc--price">
+                    $32.00
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- =========== End Trending Products================ -->
+
+      <!-- =========== Discount Item ================ -->
+      <section class="discount-item">
+        <h1 class="discount-item-title">Discount Item</h1>
+
+        <div class="discount-item-content">
+          <nav class="discount-item--nav">
+            <a
+              class="discount-item--nav--link discount-item--nav--link--active"
+              href="#"
+              >Wood Chair</a
+            >
+            <a class="discount-item--nav--link" href="#">Plastic Chair</a>
+            <a class="discount-item--nav--link" href="#">Sofa Colletion</a>
+          </nav>
+
+          <div class="discount-item-desc">
+            <h1 class="discount-item-desc--big-title">
+              20% Discount Of All Products
+            </h1>
+
+            <h4 class="discount-item-desc--small-title">Eams Sofa Compact</h4>
+
+            <p class="discount-item-desc--text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu eget
+              feugiat habitasse nec, bibendum condimentum.
+            </p>
+
+            <div class="discount-item-desc--check">
+              <div class="discount-item-desc--check-row">
+                <div class="discount-item-desc--check--item">
+                  <img
+                    class="discount-item-desc--check--item--img"
+                    src="./assets/images/check-discount-item-icon.svg"
+                    alt="check-discount-item-icon"
+                  />
+                  <p class="discount-item-desc--check--item--text">
+                    Material expose like metals
+                  </p>
+                </div>
+
+                <div class="discount-item-desc--check--item">
+                  <img
+                    class="discount-item-desc--check--item--img"
+                    src="./assets/images/check-discount-item-icon.svg"
+                    alt="check-discount-item-icon"
+                  />
+                  <p class="discount-item-desc--check--item--text">
+                    Clear lines and geomatric figures
+                  </p>
+                </div>
+              </div>
+
+              <div class="discount-item-desc--check-row">
+                <div class="discount-item-desc--check--item">
+                  <img
+                    class="discount-item-desc--check--item--img"
+                    src="./assets/images/check-discount-item-icon.svg"
+                    alt="check-discount-item-icon"
+                  />
+                  <p class="discount-item-desc--check--item--text">
+                    Simple neutral colours.
+                  </p>
+                </div>
+
+                <div class="discount-item-desc--check--item">
+                  <img
+                    class="discount-item-desc--check--item--img"
+                    src="./assets/images/check-discount-item-icon.svg"
+                    alt="check-discount-item-icon"
+                  />
+                  <p class="discount-item-desc--check--item--text">
+                    Material expose like metals
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <button class="discount-item-desc--button">Shop Now</button>
+          </div>
+
+          <img
+            class="discount-item-sofa-img"
+            src="./assets/images/sofa-discount-item-img.png"
+            alt="sofa-discount-item-img"
+          />
+        </div>
+      </section>
+      <!-- =========== End Discount Item================ -->
+
+      <!-- =========== Top Categories ================ -->
+      <section class="top-categories">
+        <h1 class="top-categories-title">Top Categories</h1>
+
+        <div class="top-categories-content">
+          <div class="top-categories-content--item">
+            <div class="top-categories-content--item--img-container">
+              <img
+                class="top-categories-content--item--img-container--img"
+                src="./assets/images/chair-top-categories-img-1.png"
+                alt="chair-top-categories-img-1."
+              />
+
+              <button
+                class="top-categories-content--item--img-container--button"
+              >
+                View Shop
+              </button>
+            </div>
+
+            <div class="top-categories-content--item--desc">
+              <div class="top-categories-content--item--desc--title">
+                <p class="top-categories-content--item--desc--title--item">
+                  Mini
+                </p>
+                <p class="top-categories-content--item--desc--title--item">
+                  LCW
+                </p>
+
+                <p class="top-categories-content--item--desc--title--item">
+                  Chair
+                </p>
+              </div>
+
+              <p class="top-categories-content--item--desc--price">$56.00</p>
+            </div>
+          </div>
+
+          <div class="top-categories-content--item">
+            <div class="top-categories-content--item--img-container">
+              <img
+                class="top-categories-content--item--img-container--img"
+                src="./assets/images/chair-top-categories-img-2.png"
+                alt="chair-top-categories-img-2."
+              />
+
+              <button
+                class="top-categories-content--item--img-container--button"
+              >
+                View Shop
+              </button>
+            </div>
+
+            <div class="top-categories-content--item--desc">
+              <div class="top-categories-content--item--desc--title">
+                <p class="top-categories-content--item--desc--title--item">
+                  Mini
+                </p>
+                <p class="top-categories-content--item--desc--title--item">
+                  LCW
+                </p>
+
+                <p class="top-categories-content--item--desc--title--item">
+                  Chair
+                </p>
+              </div>
+
+              <p class="top-categories-content--item--desc--price">$56.00</p>
+            </div>
+          </div>
+
+          <div class="top-categories-content--item">
+            <div class="top-categories-content--item--img-container">
+              <img
+                class="top-categories-content--item--img-container--img"
+                src="./assets/images/chair-top-categories-img-3.png"
+                alt="chair-top-categories-img-3."
+              />
+
+              <button
+                class="top-categories-content--item--img-container--button"
+              >
+                View Shop
+              </button>
+            </div>
+
+            <div class="top-categories-content--item--desc">
+              <div class="top-categories-content--item--desc--title">
+                <p class="top-categories-content--item--desc--title--item">
+                  Mini
+                </p>
+                <p class="top-categories-content--item--desc--title--item">
+                  LCW
+                </p>
+
+                <p class="top-categories-content--item--desc--title--item">
+                  Chair
+                </p>
+              </div>
+
+              <p class="top-categories-content--item--desc--price">$56.00</p>
+            </div>
+          </div>
+
+          <div class="top-categories-content--item">
+            <div class="top-categories-content--item--img-container">
+              <img
+                class="top-categories-content--item--img-container--img"
+                src="./assets/images/chair-top-categories-img-4.png"
+                alt="chair-top-categories-img-4."
+              />
+
+              <button
+                class="top-categories-content--item--img-container--button"
+              >
+                View Shop
+              </button>
+            </div>
+
+            <div class="top-categories-content--item--desc">
+              <div class="top-categories-content--item--desc--title">
+                <p class="top-categories-content--item--desc--title--item">
+                  Mini
+                </p>
+                <p class="top-categories-content--item--desc--title--item">
+                  LCW
+                </p>
+
+                <p class="top-categories-content--item--desc--title--item">
+                  Chair
+                </p>
+              </div>
+
+              <p class="top-categories-content--item--desc--price">$56.00</p>
+            </div>
+          </div>
+
+          <div class="top-categories-content--item">
+            <div class="top-categories-content--item--img-container">
+              <img
+                class="top-categories-content--item--img-container--img"
+                src="./assets/images/chair-top-categories-img-1.png"
+                alt="chair-top-categories-img-1."
+              />
+
+              <button
+                class="top-categories-content--item--img-container--button"
+              >
+                View Shop
+              </button>
+            </div>
+
+            <div class="top-categories-content--item--desc">
+              <div class="top-categories-content--item--desc--title">
+                <p class="top-categories-content--item--desc--title--item">
+                  Mini
+                </p>
+                <p class="top-categories-content--item--desc--title--item">
+                  LCW
+                </p>
+
+                <p class="top-categories-content--item--desc--title--item">
+                  Chair
+                </p>
+              </div>
+
+              <p class="top-categories-content--item--desc--price">$56.00</p>
+            </div>
+          </div>
+
+          <div class="top-categories-content--item">
+            <div class="top-categories-content--item--img-container">
+              <img
+                class="top-categories-content--item--img-container--img"
+                src="./assets/images/chair-top-categories-img-2.png"
+                alt="chair-top-categories-img-2."
+              />
+
+              <button
+                class="top-categories-content--item--img-container--button"
+              >
+                View Shop
+              </button>
+            </div>
+
+            <div class="top-categories-content--item--desc">
+              <div class="top-categories-content--item--desc--title">
+                <p class="top-categories-content--item--desc--title--item">
+                  Mini
+                </p>
+                <p class="top-categories-content--item--desc--title--item">
+                  LCW
+                </p>
+
+                <p class="top-categories-content--item--desc--title--item">
+                  Chair
+                </p>
+              </div>
+
+              <p class="top-categories-content--item--desc--price">$56.00</p>
+            </div>
+          </div>
+
+          <div class="top-categories-content--item">
+            <div class="top-categories-content--item--img-container">
+              <img
+                class="top-categories-content--item--img-container--img"
+                src="./assets/images/chair-top-categories-img-3.png"
+                alt="chair-top-categories-img-3."
+              />
+
+              <button
+                class="top-categories-content--item--img-container--button"
+              >
+                View Shop
+              </button>
+            </div>
+
+            <div class="top-categories-content--item--desc">
+              <div class="top-categories-content--item--desc--title">
+                <p class="top-categories-content--item--desc--title--item">
+                  Mini
+                </p>
+                <p class="top-categories-content--item--desc--title--item">
+                  LCW
+                </p>
+
+                <p class="top-categories-content--item--desc--title--item">
+                  Chair
+                </p>
+              </div>
+
+              <p class="top-categories-content--item--desc--price">$56.00</p>
+            </div>
+          </div>
+
+          <div class="top-categories-content--item">
+            <div class="top-categories-content--item--img-container">
+              <img
+                class="top-categories-content--item--img-container--img"
+                src="./assets/images/chair-top-categories-img-4.png"
+                alt="chair-top-categories-img-4."
+              />
+
+              <button
+                class="top-categories-content--item--img-container--button"
+              >
+                View Shop
+              </button>
+            </div>
+
+            <div class="top-categories-content--item--desc">
+              <div class="top-categories-content--item--desc--title">
+                <p class="top-categories-content--item--desc--title--item">
+                  Mini
+                </p>
+                <p class="top-categories-content--item--desc--title--item">
+                  LCW
+                </p>
+
+                <p class="top-categories-content--item--desc--title--item">
+                  Chair
+                </p>
+              </div>
+
+              <p class="top-categories-content--item--desc--price">$56.00</p>
+            </div>
+          </div>
+
+          <div class="top-categories-content--item">
+            <div class="top-categories-content--item--img-container">
+              <img
+                class="top-categories-content--item--img-container--img"
+                src="./assets/images/chair-top-categories-img-1.png"
+                alt="chair-top-categories-img-1."
+              />
+
+              <button
+                class="top-categories-content--item--img-container--button"
+              >
+                View Shop
+              </button>
+            </div>
+
+            <div class="top-categories-content--item--desc">
+              <div class="top-categories-content--item--desc--title">
+                <p class="top-categories-content--item--desc--title--item">
+                  Mini
+                </p>
+                <p class="top-categories-content--item--desc--title--item">
+                  LCW
+                </p>
+
+                <p class="top-categories-content--item--desc--title--item">
+                  Chair
+                </p>
+              </div>
+
+              <p class="top-categories-content--item--desc--price">$56.00</p>
+            </div>
+          </div>
+
+          <div class="top-categories-content--item">
+            <div class="top-categories-content--item--img-container">
+              <img
+                class="top-categories-content--item--img-container--img"
+                src="./assets/images/chair-top-categories-img-2.png"
+                alt="chair-top-categories-img-2."
+              />
+
+              <button
+                class="top-categories-content--item--img-container--button"
+              >
+                View Shop
+              </button>
+            </div>
+
+            <div class="top-categories-content--item--desc">
+              <div class="top-categories-content--item--desc--title">
+                <p class="top-categories-content--item--desc--title--item">
+                  Mini
+                </p>
+                <p class="top-categories-content--item--desc--title--item">
+                  LCW
+                </p>
+
+                <p class="top-categories-content--item--desc--title--item">
+                  Chair
+                </p>
+              </div>
+
+              <p class="top-categories-content--item--desc--price">$56.00</p>
+            </div>
+          </div>
+
+          <div class="top-categories-content--item">
+            <div class="top-categories-content--item--img-container">
+              <img
+                class="top-categories-content--item--img-container--img"
+                src="./assets/images/chair-top-categories-img-3.png"
+                alt="chair-top-categories-img-3."
+              />
+
+              <button
+                class="top-categories-content--item--img-container--button"
+              >
+                View Shop
+              </button>
+            </div>
+
+            <div class="top-categories-content--item--desc">
+              <div class="top-categories-content--item--desc--title">
+                <p class="top-categories-content--item--desc--title--item">
+                  Mini
+                </p>
+                <p class="top-categories-content--item--desc--title--item">
+                  LCW
+                </p>
+
+                <p class="top-categories-content--item--desc--title--item">
+                  Chair
+                </p>
+              </div>
+
+              <p class="top-categories-content--item--desc--price">$56.00</p>
+            </div>
+          </div>
+
+          <div class="top-categories-content--item">
+            <div class="top-categories-content--item--img-container">
+              <img
+                class="top-categories-content--item--img-container--img"
+                src="./assets/images/chair-top-categories-img-4.png"
+                alt="chair-top-categories-img-4."
+              />
+
+              <button
+                class="top-categories-content--item--img-container--button"
+              >
+                View Shop
+              </button>
+            </div>
+
+            <div class="top-categories-content--item--desc">
+              <div class="top-categories-content--item--desc--title">
+                <p class="top-categories-content--item--desc--title--item">
+                  Mini
+                </p>
+                <p class="top-categories-content--item--desc--title--item">
+                  LCW
+                </p>
+
+                <p class="top-categories-content--item--desc--title--item">
+                  Chair
+                </p>
+              </div>
+
+              <p class="top-categories-content--item--desc--price">$56.00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- =========== End Top Categories ================ -->
+
+      <section class="get-leatest">
+        <img
+          class="get-leatest-backgound-img"
+          src="./assets/images/get-leatest-back-ground-img.png"
+          alt="get-leatest-back-ground-img"
+        />
+
+        <div class="get-leatest-content">
+          <h1 class="get-leatest-content--title">
+            Get Leatest Update By Subscribe 0ur Newslater
+          </h1>
+
+          <button class="get-leatest-content--button">Shop Now</button>
+        </div>
+      </section>
+
+      <section class="brand">
+        <img
+          class="brand-backgound-img"
+          src="./assets/images/brand-backgound-img.png"
+          alt="brand-backgound-img"
+        />
+      </section>
+
+      <section class="leatest-blog">
+        <h1 class="leatest-blog-title">Leatest Blog</h1>
+
+        <div class="leatest-blog-content">
+          <div class="leatest-blog-content--item">
+            <img
+              class="leatest-blog-content--item--img"
+              src="./assets/images/leatest-blog-img-1.png"
+              alt="leatest-blog-img-1"
+            />
+
+            <div class="leatest-blog-content--item--info">
+              <div class="leatest-blog-content--item--position--calender">
+                <div class="leatest-blog-content--item--position">
+                  <img
+                    class="leatest-blog-content--item--position--icon"
+                    src="./assets/images/position-leatest-blog-icon.svg"
+                    alt="position-leatest-blog-icon"
+                  />
+                  <p class="leatest-blog-content--item--position--text">
+                    SaberAli
+                  </p>
+                </div>
+
+                <div class="leatest-blog-content--item--calender">
+                  <img
+                    class="leatest-blog-content--item--calender--icon"
+                    src="./assets/images/calender-leatest-blog-icon.svg"
+                    alt="calender-leatest-blog-icon"
+                  />
+                  <p class="leatest-blog-content--item--calender--text">
+                    21 August,2020
+                  </p>
+                </div>
+              </div>
+
+              <h5 class="leatest-blog-content--item--title">
+                Top esssential Trends in 2021
+              </h5>
+
+              <p class="leatest-blog-content--item--desc">
+                More off this less hello samlande lied much over tightly circa
+                horse taped mightly
+              </p>
+
+              <a href="#" class="leatest-blog-content--item-readmore"
+                >Read More</a
+              >
+            </div>
+          </div>
+
+          <div class="leatest-blog-content--item">
+            <img
+              class="leatest-blog-content--item--img"
+              src="./assets/images/leatest-blog-img-1.png"
+              alt="leatest-blog-img-1"
+            />
+
+            <div class="leatest-blog-content--item--info">
+              <div class="leatest-blog-content--item--position--calender">
+                <div class="leatest-blog-content--item--position">
+                  <img
+                    class="leatest-blog-content--item--position--icon"
+                    src="./assets/images/position-leatest-blog-icon.svg"
+                    alt="position-leatest-blog-icon"
+                  />
+                  <p class="leatest-blog-content--item--position--text">
+                    SaberAli
+                  </p>
+                </div>
+
+                <div class="leatest-blog-content--item--calender">
+                  <img
+                    class="leatest-blog-content--item--calender--icon"
+                    src="./assets/images/calender-leatest-blog-icon.svg"
+                    alt="calender-leatest-blog-icon"
+                  />
+                  <p class="leatest-blog-content--item--calender--text">
+                    21 August,2020
+                  </p>
+                </div>
+              </div>
+
+              <h5 class="leatest-blog-content--item--title">
+                Top esssential Trends in 2021
+              </h5>
+
+              <p class="leatest-blog-content--item--desc">
+                More off this less hello samlande lied much over tightly circa
+                horse taped mightly
+              </p>
+
+              <a href="#" class="leatest-blog-content--item-readmore"
+                >Read More</a
+              >
+            </div>
+          </div>
+
+          <div class="leatest-blog-content--item">
+            <img
+              class="leatest-blog-content--item--img"
+              src="./assets/images/leatest-blog-img-1.png"
+              alt="leatest-blog-img-1"
+            />
+
+            <div class="leatest-blog-content--item--info">
+              <div class="leatest-blog-content--item--position--calender">
+                <div class="leatest-blog-content--item--position">
+                  <img
+                    class="leatest-blog-content--item--position--icon"
+                    src="./assets/images/position-leatest-blog-icon.svg"
+                    alt="position-leatest-blog-icon"
+                  />
+                  <p class="leatest-blog-content--item--position--text">
+                    SaberAli
+                  </p>
+                </div>
+
+                <div class="leatest-blog-content--item--calender">
+                  <img
+                    class="leatest-blog-content--item--calender--icon"
+                    src="./assets/images/calender-leatest-blog-icon.svg"
+                    alt="calender-leatest-blog-icon"
+                  />
+                  <p class="leatest-blog-content--item--calender--text">
+                    21 August,2020
+                  </p>
+                </div>
+              </div>
+
+              <h5 class="leatest-blog-content--item--title">
+                Top esssential Trends in 2021
+              </h5>
+
+              <p class="leatest-blog-content--item--desc">
+                More off this less hello samlande lied much over tightly circa
+                horse taped mightly
+              </p>
+
+              <a href="#" class="leatest-blog-content--item-readmore"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ============= End Main =================== -->
+
+    <!-- ============= Footer =================== -->
+    <footer class="footer-container">
+      <div class="footer-top">
+        <div class="footer-top-content">
+          <div class="footer-top-content--info">
+            <h1 class="footer-top-content--info--logo">Hekto</h1>
+
+            <div class="footer-top-content--info-submit">
+              <input
+                class="footer-top-content--info-submit--input"
+                type="email"
+                placeholder="Enter Email Address"
+              />
+              <button
+                class="footer-top-content--info-submit--button"
+                type="submit"
+              >
+                Sign Up
+              </button>
+            </div>
+
+            <p class="footer-top-content--info--contact">Contact Info</p>
+
+            <p class="footer-top-content--info--address">
+              17 Princess Road, London, Greater London NW1 8JR, UK
+            </p>
+          </div>
+
+          <div class="footer-top-content--categories">
+            <h2 class="footer-top-content--categories--title">Catagories</h2>
+            <ul class="footer-top-content--categories-links">
+              <li class="footer-top-content--categories-links--item">
+                Laptops & Computers
+              </li>
+              <li class="footer-top-content--categories-links--item">
+                Cameras & Photography
+              </li>
+              <li class="footer-top-content--categories-links--item">
+                Smart Phones & Tablets
+              </li>
+              <li class="footer-top-content--categories-links--item">
+                Video Games & Consoles
+              </li>
+              <li class="footer-top-content--categories-links--item">
+                Waterproof Headphones
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-top-content--customercare">
+            <h2 class="footer-top-content--customercare--title">
+              Customer Care
+            </h2>
+            <ul class="footer-top-content--customercare-links">
+              <li class="footer-top-content--customercare-links--item">
+                My Account
+              </li>
+              <li class="footer-top-content--customercare-links--item">
+                Discount
+              </li>
+              <li class="footer-top-content--customercare-links--item">
+                Returns
+              </li>
+              <li class="footer-top-content--customercare-links--item">
+                Orders History
+              </li>
+              <li class="footer-top-content--customercare-links--item">
+                Order Tracking
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-top-content--pages">
+            <h2 class="footer-top-content--pages--title">Pages</h2>
+            <ul class="footer-top-content--pages-links">
+              <li class="footer-top-content--pages-links--item">Blog</li>
+              <li class="footer-top-content--pages-links--item">
+                Browse the Shop
+              </li>
+              <li class="footer-top-content--pages-links--item">Category</li>
+              <li class="footer-top-content--pages-links--item">
+                Pre-Built Pages
+              </li>
+              <li class="footer-top-content--pages-links--item">
+                Visual Composer Elements
+              </li>
+              <li class="footer-top-content--pages-links--item">
+                WooCommerce Pages
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-content">
+          <p class="footer-bottom-content-copyright">
+            ©Webecy - All Rights Reserved
+          </p>
+
+          <div class="footer-bottom-content--icons">
+            <img
+              class="footer-bottom-content--icons--face"
+              src="./assets/images/footer-face-book-icon.svg"
+              alt="footer-face-book-icon"
+            />
+
+            <img
+              class="footer-bottom-content--icons--twitter"
+              src="./assets/images/footer-twitter-icon.svg"
+              alt="footer-twitter-icon"
+            />
+
+            <img
+              class="footer-bottom-content--icons--instagram"
+              src="./assets/images/footer-instagram-icon.svg"
+              alt="footer-instagram-icon"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ============= End Footer =================== -->
+
+    <!-- Slick Slider -->
+    <script type="text/javascript" src="./assets/js/slider.js"></script>
+  </body>
+</html>
